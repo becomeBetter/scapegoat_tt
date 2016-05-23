@@ -1,0 +1,74 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Kean\\tools\\node4.3.1\\node.exe',
+1 verbose cli   'D:\\Kean\\tools\\node4.3.1\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'E:\\Kean\\ProjectTest\\nodejsmodule\\scapegoat_tt',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\Zh\AppData\Roaming\npm-cache\scapegoat_tt\1.0.0\package.tgz not in flight; packing
+9 verbose tar pack [ 'C:\\Users\\Zh\\AppData\\Roaming\\npm-cache\\scapegoat_tt\\1.0.0\\package.tgz',
+9 verbose tar pack   'E:\\Kean\\ProjectTest\\nodejsmodule\\scapegoat_tt' ]
+10 verbose tarball C:\Users\Zh\AppData\Roaming\npm-cache\scapegoat_tt\1.0.0\package.tgz
+11 verbose folder E:\Kean\ProjectTest\nodejsmodule\scapegoat_tt
+12 info prepublish scapegoat_tt@1.0.0
+13 verbose addLocalTarball adding from inside cache C:\Users\Zh\AppData\Roaming\npm-cache\scapegoat_tt\1.0.0\package.tgz
+14 silly cache afterAdd scapegoat_tt@1.0.0
+15 verbose afterAdd C:\Users\Zh\AppData\Roaming\npm-cache\scapegoat_tt\1.0.0\package\package.json not in flight; writing
+16 verbose afterAdd C:\Users\Zh\AppData\Roaming\npm-cache\scapegoat_tt\1.0.0\package\package.json written
+17 silly publish { name: 'scapegoat_tt',
+17 silly publish   version: '1.0.0',
+17 silly publish   description: ' an npm module consisting of a couple utility methods for escaping and unescaping HTML entities – commonly needed utils to prevent XSS attacks when rendering user generated content',
+17 silly publish   main: 'index.js',
+17 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+17 silly publish   repository:
+17 silly publish    { type: 'git',
+17 silly publish      url: 'git+https://github.com/becomeBetter/scapegoat_tt.git' },
+17 silly publish   keywords: [ 'escape' ],
+17 silly publish   author:
+17 silly publish    { name: 'Kean Yuan',
+17 silly publish      email: 'yuanzuochao@gmail.com',
+17 silly publish      url: 'http://becomebetter.iteye.com/' },
+17 silly publish   license: 'ISC',
+17 silly publish   bugs: { url: 'https://github.com/becomeBetter/scapegoat_tt/issues' },
+17 silly publish   homepage: 'https://github.com/becomeBetter/scapegoat_tt#readme',
+17 silly publish   devDependencies: { chai: '^3.5.0', mocha: '^2.4.5' },
+17 silly publish   readme: 'ERROR: No README data found!',
+17 silly publish   _id: 'scapegoat_tt@1.0.0',
+17 silly publish   _shasum: 'edf3265b977a87621ceea82a7502d31df081d896',
+17 silly publish   _from: '.' }
+18 verbose getPublishConfig undefined
+19 silly mapToRegistry name scapegoat_tt
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/scapegoat_tt
+23 verbose publish registryBase https://registry.npmjs.org/
+24 silly publish uploading C:\Users\Zh\AppData\Roaming\npm-cache\scapegoat_tt\1.0.0\package.tgz
+25 verbose stack Error: auth required for publishing
+25 verbose stack     at CachingRegistryClient.publish (D:\Kean\tools\node4.3.1\node_modules\npm\node_modules\npm-registry-client\lib\publish.js:30:14)
+25 verbose stack     at D:\Kean\tools\node4.3.1\node_modules\npm\lib\publish.js:134:14
+25 verbose stack     at mapToRegistry (D:\Kean\tools\node4.3.1\node_modules\npm\lib\utils\map-to-registry.js:55:3)
+25 verbose stack     at publish_ (D:\Kean\tools\node4.3.1\node_modules\npm\lib\publish.js:104:3)
+25 verbose stack     at Array.<anonymous> (D:\Kean\tools\node4.3.1\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+25 verbose stack     at LOOP (D:\Kean\tools\node4.3.1\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+25 verbose stack     at LOOP (D:\Kean\tools\node4.3.1\node_modules\npm\node_modules\slide\lib\chain.js:14:28)
+25 verbose stack     at chain (D:\Kean\tools\node4.3.1\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+25 verbose stack     at D:\Kean\tools\node4.3.1\node_modules\npm\lib\publish.js:73:5
+25 verbose stack     at RES (D:\Kean\tools\node4.3.1\node_modules\npm\node_modules\inflight\inflight.js:23:14)
+26 verbose cwd E:\Kean\ProjectTest\nodejsmodule\scapegoat_tt
+27 error Windows_NT 6.1.7601
+28 error argv "D:\\Kean\\tools\\node4.3.1\\node.exe" "D:\\Kean\\tools\\node4.3.1\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+29 error node v4.3.1
+30 error npm  v2.14.12
+31 error code ENEEDAUTH
+32 error need auth auth required for publishing
+32 error need auth You need to authorize this machine using `npm adduser`
+33 verbose exit [ 1, true ]

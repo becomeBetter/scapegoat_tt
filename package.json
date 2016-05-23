@@ -1,0 +1,26 @@
+{
+  "name": "scapegoat_tt",
+  "version": "1.0.0",
+  "description": " an npm module consisting of a couple utility methods for escaping and unescaping HTML entities – commonly needed utils to prevent XSS attacks when rendering user generated content",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becomeBetter/scapegoat_tt.git"
+  },
+  "keywords": [
+    "escape"
+  ],
+  "author": "Kean Yuan <yuanzuochao@gmail.com> (http://becomebetter.iteye.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/becomeBetter/scapegoat_tt/issues"
+  },
+  "homepage": "https://github.com/becomeBetter/scapegoat_tt#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
